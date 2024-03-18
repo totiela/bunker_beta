@@ -122,8 +122,6 @@ h2{
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон */
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
     z-index: 1; /* Установка z-index для правил, чтобы они находились над другими элементами */
 }
 
@@ -138,8 +136,4 @@ h2{
     opacity: 0.85;
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        padding: 0 10px;
-    }
-}
+
