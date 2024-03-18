@@ -106,7 +106,6 @@ h2{
     font-size: 24px;
     border: none;
     cursor: pointer;
-    outline: 2px solid red;
     text-align: center;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
