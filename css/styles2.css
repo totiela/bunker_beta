@@ -97,8 +97,9 @@ h2{
 }
 
 .question-button {
-    width: 100px;
-    height: 100px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
     background-size: cover; /* или любой другой подходящий размер */
