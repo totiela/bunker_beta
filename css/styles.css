@@ -1,0 +1,68 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/1625834103_20-kartinkin-com-p-bunker-arti-art-krasivo-21.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 4px #000
+}
+
+h2{
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.title {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+
+.start-button {
+    width: 200px;
+    height: 60px;
+    padding: 16px 22px;
+    font-size: 20px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 21vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.start-button:hover {
+    opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+}

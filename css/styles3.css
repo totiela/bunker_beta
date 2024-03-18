@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/pixlr-image-generator-25013470-51f1-4340-8111-e2c9c55993bc.png') no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 2px #000
+}

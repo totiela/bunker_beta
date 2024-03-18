@@ -1,0 +1,143 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/Bombo03-4.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+button{
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+
+
+.info-button{
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    line-height: 17px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.character-button{
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    line-height: 17px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+    margin-bottom: 20px; /* отступ между кнопками */
+}
+
+.question-button-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.question-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rules-container {
+
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон */
+    border-radius: 10px;
+    z-index: 1; /* Установка z-index для правил, чтобы они находились над другими элементами */
+}
+
+.info-button:hover{
+    opacity: 0.85;
+}
+.question-button:hover{
+    opacity: 0.85;
+}
+
+.character-button:hover{
+    opacity: 0.85;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+}

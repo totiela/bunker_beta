@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начать игру</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <label for="name">Введите ваше имя:</label>
+    <input type="text" id="name" placeholder="Имя">
+    <span id="nameError" style="color: red;"></span>
+    <br>
+    <label for="age">Введите возраст персонажа:</label>
+    <input type="text" id="age" placeholder="Возраст">
+    <span id="ageError" style="color: red;"></span>
+    <br>
+    <button onclick="validateInput()">Далее</button>
+    <button class = "upload" onclick="loadLastData()">Загрузить последние данные</button>
+    <a href="choose.html"><button class="rightbot">Назад</button></a>
+</body>
+</html>
